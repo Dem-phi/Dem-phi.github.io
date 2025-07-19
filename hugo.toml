@@ -1,30 +1,128 @@
 baseURL = "https://Dem-phi.github.io/"
-title = "Dem-phi"
+title = "Zhenghan Chen"
 theme = "hugo-coder"
-languageCode = "en-us"
+languageCode = "en"
 defaultContentLanguage = "en"
+enableEmoji = true
 
 # 下面是 hugo-coder 必须的一些基本配置
 [pagination]
-  pagerSize = 20
+  pagerSize = 8
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
-  author = "Dem-phi"
-  description = "My personal website"
-  avatarURL = "images/avatar.jpg"  # 可以先放个头像在 static/images 下
+  author = "Zhenghan Chen"
+  description = "Halas website"
+  avatarURL = "images/photo.jpg"  # 可以先放个头像在 static/images 下
+  info = "M.S. Control Science and Technology in Zhejiang University"
+  # keywords = "blog,desenvolvedor,pessoal"
+colorScheme = "auto"
+
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+# author link 
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/Dem-phi/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa-brands fa-x-twitter fa-2x"
+weight = 3
+url = "https://twitter.com/johndoe/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/johndoe/"
+
+[[params.social]]
+name = "Medium"
+icon = "fa-brands fa-medium fa-2x"
+weight = 5
+url = "https://medium.com/@johndoe"
+
 
 # 菜单示例
-[[menu.main]]
-  name = "Home"
-  weight = 1
-  url = "/"
+# [[menu.main]]
+#   name = "Home"
+#   weight = 1
+#   url = "/"
 
-[[menu.main]]
-  name = "Posts"
-  weight = 2
-  url = "/posts/"
+# [[menu.main]]
+#   name = "Posts"
+#   weight = 2
+#   url = "/posts/"
 
-[[menu.main]]
-  name = "About"
-  weight = 3
-  url = "/about/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 3
+#   url = "/about/"
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[languages.en.menu.main]]
+# include education
+name = "About"
+weight = 2
+url = "/About/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
+[languages.pt-br]
+languageName = ":cn:"
+title = "陈政翰"
+
+[languages.pt-br.params]
+author = "陈政翰"
+info = "Full Stack DevOps e Mágico"
+description = "Sítio pessoal de João Ninguém"
+keywords = "blog,desenvolvedor,pessoal"
+
+[[languages.pt-br.menu.main]]
+name = "Sobre"
+weight = 1
+url = "about/"
+
+[[languages.pt-br.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.pt-br.menu.main]]
+name = "Projetos"
+weight = 3
+url = "projects/"
+
+[[languages.pt-br.menu.main]]
+name = "Contato"
+weight = 5
+url = "contact/"
