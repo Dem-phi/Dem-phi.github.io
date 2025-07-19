@@ -1,0 +1,30 @@
+baseURL = "https://Dem-phi.github.io/"
+title = "Dem-phi"
+theme = "hugo-coder"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+# 下面是 hugo-coder 必须的一些基本配置
+[pagination]
+  pagerSize = 20
+
+[params]
+  author = "Dem-phi"
+  description = "My personal website"
+  avatarURL = "images/avatar.jpg"  # 可以先放个头像在 static/images 下
+
+# 菜单示例
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 2
+  url = "/posts/"
+
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "/about/"
