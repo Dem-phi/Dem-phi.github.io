@@ -31,30 +31,37 @@ category = "categories"
 series = "series"
 tag = "tags"
 author = "authors"
+
 # author link 
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 1
+url = "mailto:demphi@zju.edu.cn"
+
 [[params.social]]
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
-weight = 1
+weight = 2
 url = "https://github.com/Dem-phi/"
 
 [[params.social]]
-name = "Twitter"
-icon = "fa-brands fa-x-twitter fa-2x"
-weight = 3
-url = "https://twitter.com/johndoe/"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-2x"
+name = "Google Scholar"
+icon = "fa-solid fa-graduation-cap fa-2x"
 weight = 4
-url = "https://www.linkedin.com/in/johndoe/"
+url = "https://scholar.google.com/citations?hl=zh-CN&user=UkQ5A_QAAAAJ"
 
-[[params.social]]
-name = "Medium"
-icon = "fa-brands fa-medium fa-2x"
-weight = 5
-url = "https://medium.com/@johndoe"
+# [[params.social]]
+# name = "LinkedIn"
+# icon = "fa-brands fa-linkedin fa-2x"
+# weight = 4
+# url = "https://www.linkedin.com/in/johndoe/"
+
+# [[params.social]]
+# name = "Medium"
+# icon = "fa-brands fa-medium fa-2x"
+# weight = 5
+# url = "https://medium.com/@johndoe"
 
 
 # 菜单示例
@@ -85,7 +92,7 @@ url = "/"
 # include education
 name = "About"
 weight = 2
-url = "/About/"
+url = "about/"
 
 [[languages.en.menu.main]]
 name = "Projects"
@@ -93,7 +100,7 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Contact"
 weight = 5
 url = "contact/"
 
@@ -108,21 +115,17 @@ description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
 
 [[languages.pt-br.menu.main]]
-name = "Sobre"
+name = "关于我"
 weight = 1
 url = "about/"
 
-[[languages.pt-br.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
 
 [[languages.pt-br.menu.main]]
-name = "Projetos"
+name = "项目经历"
 weight = 3
 url = "projects/"
 
 [[languages.pt-br.menu.main]]
-name = "Contato"
+name = "联系方式"
 weight = 5
 url = "contact/"
