@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zhenghan Chen</title><link>https://Dem-phi.github.io/</link><description>Recent content on Zhenghan Chen</description><generator>Hugo</generator><language>en</language><atom:link href="https://Dem-phi.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhenghan Chen</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Zhenghan Chen</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div style=&#34;display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/photo_2.jpg&#34; alt=&#34;Your Name&#34; style=&#34;border-radius: 50%; width: 180px;&#34;&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h2 style=&#34;margin:0;&#34;&gt;ZHENGHAN CHEN&lt;/h2&gt;&#xA;    &lt;p style=&#34;margin:0;&#34;&gt;M.S. Candidate, supervised by Rong Xiong&lt;/p&gt;&#xA;    &lt;p style=&#34;margin:0;&#34;&gt;Zhejiang University&lt;/p&gt;&#xA;    &lt;p style=&#34;margin:0;&#34;&gt;Expected graduation: &lt;strong&gt;March 2026&lt;/strong&gt;&lt;/p&gt;&#xA;    &lt;p&gt;&#xA;      &lt;a href=&#34;https://scholar.google.com/citations?hl=zh-CN&amp;user=UkQ5A_QAAAAJ&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa-solid fa-graduation-cap&#34;&gt;&lt;/i&gt; Google Scholar&lt;/a&gt;&#xA;      |&#xA;      &lt;a href=&#34;http://localhost:1313/files/陈政翰英文简历.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa-solid fa-file-lines&#34;&gt;&lt;/i&gt; Download CV&lt;/a&gt;&#xA;    &lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-research&#34;&gt;&#xA;  📌 Research&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-research&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I have published &lt;strong&gt;5+ papers&lt;/strong&gt; during my M.S. in leading journals and conferences, including &lt;em&gt;TMECH&lt;/em&gt;, &lt;em&gt;RA-L&lt;/em&gt;, &lt;em&gt;RAI&lt;/em&gt;, &lt;em&gt;IROS&lt;/em&gt; and &lt;em&gt;RCAR&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Of these, I am the &lt;strong&gt;first or co-first author&lt;/strong&gt; on &lt;strong&gt;3 papers&lt;/strong&gt;, including &lt;strong&gt;1 in &lt;em&gt;RA-L&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;1 in &lt;em&gt;RAI&lt;/em&gt;&lt;/strong&gt;, and &lt;strong&gt;1 in &lt;em&gt;RCAR&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
