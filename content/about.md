@@ -2,7 +2,7 @@
 title = "About Me"
 description = "Personal information, research and education"
 date = "2025-07-19"
-aliases = ["about-me", "about-zhenghan"]
+aliases = ["about-me", "about-zhenghan", "关于我"]
 author = "Demphi"
 +++
 

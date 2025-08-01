@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zhenghan Chen</title><link>https://Dem-phi.github.io/</link><description>Recent content on Zhenghan Chen</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 19 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Dem-phi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://Dem-phi.github.io/about/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://Dem-phi.github.io/about/</guid><description>&lt;div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zhenghan Chen</title><link>https://Dem-phi.github.io/</link><description>Recent content on Zhenghan Chen</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Dem-phi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Selected Projects</title><link>https://Dem-phi.github.io/projects/</link><pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate><guid>https://Dem-phi.github.io/projects/</guid><description>&lt;h2 id="accepted-papers">
+ Accepted Papers
+ &lt;a class="heading-link" href="#accepted-papers">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
+ &lt;div>
+ &lt;strong>Natural Humanoid Robot Locomotion with Generative Motion Prior&lt;/strong>
+ &lt;br>
+ Haodong Zhang*, Liang Zhang*, &lt;strong>Zhenghan Chen&lt;/strong>, Lu Chen, Yue Wang, Rong Xiong.
+ &lt;br>
+ &lt;a href="https://arxiv.org/pdf/2503.09015?">[paper]&lt;/a> &lt;a href="https://sites.google.com/view/humanoid-gmp">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
+ &lt;br>&lt;em>IROS 2025&lt;/em>
+ &lt;/div>
+&lt;/div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/move.jpg" alt="Project Image" style="width: 150px; border-radius: 8px;">
+ &lt;div>
+ &lt;strong>A Whole-Body Motion Imitation Framework from Human Data for Full-Size Humanoid Robot&lt;/strong>
+ &lt;br>
+ &lt;strong>Zhenghan Chen*&lt;/strong>, Haodong Zhang*, Dongqi Wang, Jiyu Yu, Haocheng Xu, Yue Wang, Rong Xiong.
+ &lt;br>
+ &lt;a href="#">[paper]&lt;/a> &lt;a href="#">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
+ &lt;br>&lt;em>RCAR 2025&lt;/em>
+ &lt;/div>
+&lt;/div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/quadruped.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
+ &lt;div>
+ &lt;strong>Foothold-Based Planning for Legged Robot Autonomous Navigation over Uneven Terrain&lt;/strong>
+ &lt;br>
+ Jiyu Yu, Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Ci Chen, Shuangpeng Wu, Yue Wang
+ &lt;br>
+ &lt;a href="#">[paper]&lt;/a> &lt;a href="#">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
+ &lt;br>&lt;em>TMECH 2025&lt;/em>
+ &lt;/div>
+&lt;/div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/move.jpg" alt="Project Image" style="width: 150px; border-radius: 8px;">
+ &lt;div>
+ &lt;strong>A Hierarchical MPC for Locomotion Tracking Control of Humanoid Robots&lt;/strong>
+ &lt;br>
+ Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Jiyu Yu, Liang Zhang, Yue Wang, Haojian Lu, Shaoxing Qu, Rong Xiong.
+ &lt;br>
+ &lt;a href="#">[paper]&lt;/a> &lt;a href="#">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
+ &lt;br>&lt;em>RAI 2025&lt;/em>
+ &lt;/div>
+&lt;/div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/quadruped.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
+ &lt;div>
+ &lt;strong>A Fast Motion and Foothold Planning Framework for Legged Robots on Discrete Terrain&lt;/strong>
+ &lt;br>
+ Jiyu Yu, Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Ci Chen, Shuangpeng Wu, Yue Wang
+ &lt;br>
+ &lt;a href="https://ieeexplore.ieee.org/abstract/document/10802606">[paper]&lt;/a> &lt;a href="#">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
+ &lt;br>&lt;em>IROS 2024&lt;/em>
+ &lt;/div>
+&lt;/div>
+&lt;h2 id="under-review">
+ Under Review
+ &lt;a class="heading-link" href="#under-review">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
+ &lt;div>
+ &lt;strong>TOP: Time Optimization Policy for Stable and Accurate Standing Manipulation with Humanoid Robots&lt;/strong>
+ &lt;br>
+ &lt;strong>Zhenghan Chen*&lt;/strong>, Haocheng Xu*, Haodong Zhang, Liang Zhang, He Li, Dongqi Wang, Jiyu Yu, Yifei Yang, Zhongxiang Zhou, Rong Xiong.
+ &lt;br>
+ &lt;a href="#arxiv">[paper]&lt;/a> &lt;a href="https://dem-phi.github.io/top/">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
+ &lt;br>&lt;em>Revise and Resumbit, RAL 2025&lt;/em>
+ &lt;/div>
+&lt;/div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
+ &lt;div>
+ &lt;strong>EMP: Executable Motion Prior for Humanoid Robot Standing Upper-body Motion Imitation&lt;/strong>
+ &lt;br>
+ Haocheng Xu*, Haodong Zhang*, &lt;strong>Zhenghan Chen&lt;/strong>, Rong Xiong
+ &lt;br>
+ &lt;a href="#arxiv">[paper]&lt;/a> &lt;a href="https://emp-2025.github.io/EMP-project-page/">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
+ &lt;br>&lt;em>Under Review, RAL 2025&lt;/em>
+ &lt;/div>
+&lt;/div></description></item><item><title>About Me</title><link>https://Dem-phi.github.io/about/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://Dem-phi.github.io/about/</guid><description>&lt;div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
  &lt;img src="https://Dem-phi.github.io/images/photo_2.jpg" alt="Your Name" style="border-radius: 50%; width: 180px;">
  &lt;div>
  &lt;h2 style="margin:0;">ZHENGHAN CHEN&lt;/h2>

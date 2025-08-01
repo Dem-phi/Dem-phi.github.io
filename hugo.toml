@@ -3,6 +3,7 @@ title = "Zhenghan Chen"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 enableEmoji = true
 
 # 下面是 hugo-coder 必须的一些基本配置
@@ -52,8 +53,8 @@ weight = 4
 url = "https://scholar.google.com/citations?hl=zh-CN&user=UkQ5A_QAAAAJ"
 
 # [[params.social]]
-# name = "LinkedIn"
-# icon = "fa-brands fa-linkedin fa-2x"
+# name = "Red Book"
+# icon = "fa-brands fa-little-red-book fa-2x"
 # weight = 4
 # url = "https://www.linkedin.com/in/johndoe/"
 
@@ -99,33 +100,35 @@ name = "Projects"
 weight = 3
 url = "projects/"
 
-[[languages.en.menu.main]]
-name = "Contact"
-weight = 5
-url = "contact/"
+# [[languages.en.menu.main]]
+# name = "Contact"
+# weight = 5
+# url = "contact/"
 
-[languages.pt-br]
+[languages.zh]
 languageName = ":cn:"
 title = "陈政翰"
 
-[languages.pt-br.params]
+[languages.zh.params]
 author = "陈政翰"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
+info = "硕士 浙江大学控制科学与工程"
 
-[[languages.pt-br.menu.main]]
-name = "关于我"
+[[languages.zh.menu.main]]
+name = "主页"
 weight = 1
-url = "about/"
+url = "/"
 
+[[languages.zh.menu.main]]
+name = "关于我"
+weight = 2
+url = "/about/"
 
-[[languages.pt-br.menu.main]]
+[[languages.zh.menu.main]]
 name = "项目经历"
 weight = 3
-url = "projects/"
+url = "/projects/"
 
-[[languages.pt-br.menu.main]]
-name = "联系方式"
-weight = 5
-url = "contact/"
+# [[languages.pt-br.menu.main]]
+# name = "联系方式"
+# weight = 5
+# url = "contact/"
