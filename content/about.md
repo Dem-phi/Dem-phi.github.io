@@ -32,6 +32,9 @@ I have published **5+ papers** during my M.S. in leading journals and conference
 
 Of these, I am the **first or co-first author** on **3 papers**, including **1 in *RA-L***, **1 in *RAI***, and **1 in *RCAR***.
 
+ I am constantly seeking opportunities for PhD and research interns. You can find information about me in CV. Feel free to contact me at demphi@zju.edu.cn or wechat czh-lasting1590.
+
+
 ---
 
 ## 🔬 Research Interests
@@ -44,6 +47,5 @@ Of these, I am the **first or co-first author** on **3 papers**, including **1 i
 ---
 
 ## 🎓 Education
-
 - **M.S. Control Science and Technology**, Zhejiang University 
 - **B.E. Automation**, Harbin Institute of Technology (Shenzhen)

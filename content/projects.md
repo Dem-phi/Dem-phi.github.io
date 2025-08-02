@@ -37,9 +37,9 @@ author = "Demphi"
   <div>
     <strong>Foothold-Based Planning for Legged Robot Autonomous Navigation over Uneven Terrain</strong>
     <br>
-    Jiyu Yu, Dongqi Wang, <strong>Zhenghan Chen</strong>, Ci Chen, Shuangpeng Wu, Yue Wang
+    Jiyu Yu, Dongqi Wang, <strong>Zhenghan Chen</strong>, Ci Chen, Rong Xiong, Yue Wang
     <br>
-    <a href="#">[paper]</a> <a href="#">[project page]</a> <a href="#">[code]</a>
+    <a href="https://ieeexplore.ieee.org/document/11105072">[paper]</a> <a href="#">[project page]</a> <a href="#">[code]</a>
     <br><em>TMECH 2025</em>
   </div>
 </div>
