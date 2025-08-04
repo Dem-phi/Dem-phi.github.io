@@ -27,7 +27,7 @@ author = "Demphi"
     <br>
     <strong>Zhenghan Chen*</strong>, Haodong Zhang*, Dongqi Wang, Jiyu Yu, Haocheng Xu, Yue Wang, Rong Xiong.
     <br>
-    <a href="#">[paper]</a> <a href="#">[project page]</a> <a href="#">[code]</a>
+    <a href="https://arxiv.org/abs/2508.00362">[paper]</a> <a href="#">[project page]</a> <a href="#">[code]</a>
     <br><em>RCAR 2025</em>
   </div>
 </div>
@@ -51,7 +51,7 @@ author = "Demphi"
     <br>
     Dongqi Wang, <strong>Zhenghan Chen</strong>, Jiyu Yu, Liang Zhang, Yue Wang, Haojian Lu, Shaoxing Qu, Rong Xiong.
     <br>
-    <a href="#">[paper]</a> <a href="#">[project page]</a> <a href="#">[code]</a>
+    <a href="#">[paper]</a> <a href="https://doqw.github.io/hmpc-humanoid-robot/">[project page]</a> <a href="#">[code]</a>
     <br><em>RAI 2025</em>
   </div>
 </div>
@@ -77,7 +77,7 @@ author = "Demphi"
     <br>
     <strong>Zhenghan Chen*</strong>, Haocheng Xu*, Haodong Zhang, Liang Zhang, He Li, Dongqi Wang, Jiyu Yu, Yifei Yang, Zhongxiang Zhou, Rong Xiong.
     <br>
-    <a href="#arxiv">[paper]</a> <a href="https://dem-phi.github.io/top/">[project page]</a> <a href="#">[code]</a>
+    <a href="https://arxiv.org/abs/2508.00355">[paper]</a> <a href="https://dem-phi.github.io/top/">[project page]</a> <a href="#">[code]</a>
     <br><em>Revise and Resumbit, RAL 2025</em>
   </div>
 </div>
