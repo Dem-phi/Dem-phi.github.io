@@ -1,0 +1,357 @@
+/* Custom styles for enhanced UI */
+
+/* Color palette */
+:root {
+  --primary: #5b7fff;
+  --primary-light: #8ba3ff;
+  --primary-dark: #3b5ed9;
+  --accent: #9b5de5;
+  --accent-light: #c47fff;
+  --accent-dark: #7b2eb8;
+}
+
+/* Project cards */
+.project-card {
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(91, 127, 255, 0.12);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(91, 127, 255, 0.18);
+  border-color: rgba(91, 127, 255, 0.35);
+}
+
+.project-link {
+  transition: all 0.25s ease;
+  color: #5b7fff;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  color: #9b5de5;
+}
+
+.conference-tag {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+  .project-card img {
+    width: 200px !important;
+  }
+
+  .project-card strong {
+    font-size: 1rem !important;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Image hover effect */
+.project-card img {
+  transition: transform 0.35s ease;
+  border-radius: 10px;
+}
+
+.project-card:hover img {
+  transform: scale(1.08);
+}
+
+/* About page styles */
+.about-section {
+  padding: 2rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(91, 127, 255, 0.06) 0%, rgba(155, 93, 229, 0.06) 100%);
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  margin-top: 0;
+  color: #5b7fff;
+}
+
+/* Research interests list */
+.research-interests {
+  list-style: none;
+  padding: 0;
+}
+
+.research-interests li {
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: rgba(91, 127, 255, 0.06);
+  border-radius: 10px;
+  border-left: 4px solid #5b7fff;
+  transition: all 0.3s ease;
+  font-size: 1.05rem;
+}
+
+.research-interests li:hover {
+  background: rgba(91, 127, 255, 0.12);
+  transform: translateX(8px);
+}
+
+/* Education timeline */
+.education-item {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #9b5de5;
+  background: rgba(155, 93, 229, 0.06);
+  border-radius: 0 10px 10px 0;
+}
+
+/* Social links enhancement */
+.navigation-link:hover {
+  color: #5b7fff !important;
+}
+
+/* Stats highlight */
+.stats-highlight {
+  display: inline-flex;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1rem 1.75rem;
+  background: linear-gradient(135deg, #5b7fff 0%, #9b5de5 100%);
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 6px 20px rgba(91, 127, 255, 0.25);
+  min-width: 100px;
+}
+
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: 700;
+  display: block;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  opacity: 0.95;
+  margin-top: 0.25rem;
+  font-weight: 400;
+}
+
+/* Home page enhancements */
+.about {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.interest-tag {
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  margin: 0.35rem;
+  background: linear-gradient(135deg, rgba(91, 127, 255, 0.08) 0%, rgba(155, 93, 229, 0.08) 100%);
+  border: 1.5px solid rgba(91, 127, 255, 0.25);
+  border-radius: 24px;
+  color: #5b7fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: default;
+}
+
+.interest-tag:hover {
+  background: linear-gradient(135deg, rgba(91, 127, 255, 0.15) 0%, rgba(155, 93, 229, 0.15) 100%);
+  transform: scale(1.08);
+  box-shadow: 0 6px 16px rgba(91, 127, 255, 0.2);
+}
+
+/* About page enhancements */
+.content h2 {
+  position: relative;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  color: #5b7fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.content h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(90deg, #5b7fff 0%, #9b5de5 100%);
+  border-radius: 3px;
+}
+
+.content hr {
+  margin: 3rem 0;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(91, 127, 255, 0.3) 50%, transparent 100%);
+}
+
+/* Avatar enhancement */
+.avatar img {
+  transition: all 0.35s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+}
+
+.avatar img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 32px rgba(91, 127, 255, 0.25);
+}
+
+/* Social icon enhancement */
+.about ul li a {
+  transition: all 0.35s ease;
+  color: #5b7fff;
+}
+
+.about ul li a:hover {
+  color: #9b5de5;
+  transform: scale(1.15);
+}
+
+/* Research section styling */
+.research-highlight {
+  background: linear-gradient(135deg, rgba(91, 127, 255, 0.06) 0%, rgba(155, 93, 229, 0.06) 100%);
+  border-radius: 14px;
+  padding: 1.75rem;
+  margin: 1.75rem 0;
+  border-left: 5px solid #5b7fff;
+  font-size: 1.05rem;
+}
+
+.research-highlight strong {
+  color: #5b7fff;
+  font-size: 1.15rem;
+}
+
+/* Download CV button */
+.cv-button {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  background: linear-gradient(135deg, #5b7fff 0%, #9b5de5 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 6px 20px rgba(91, 127, 255, 0.25);
+  margin-top: 0.75rem;
+}
+
+.cv-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(91, 127, 255, 0.35);
+  background: linear-gradient(135deg, #8ba3ff 0%, #c47fff 100%);
+}
+
+/* Education cards */
+.education-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: rgba(91, 127, 255, 0.04);
+  border-radius: 12px;
+  border: 1.5px solid rgba(91, 127, 255, 0.12);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.education-card:hover {
+  background: rgba(91, 127, 255, 0.08);
+  border-color: rgba(91, 127, 255, 0.3);
+  transform: translateX(6px);
+  box-shadow: 0 6px 20px rgba(91, 127, 255, 0.15);
+}
+
+.education-icon {
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(91, 127, 255, 0.1) 0%, rgba(155, 93, 229, 0.1) 100%);
+  border-radius: 12px;
+}
+
+/* Dark mode adjustments */
+.colorscheme-dark .project-card {
+  background: rgba(30, 30, 35, 0.6);
+  border-color: rgba(91, 127, 255, 0.2);
+}
+
+.colorscheme-dark .project-card:hover {
+  border-color: rgba(91, 127, 255, 0.45);
+}
+
+.colorscheme-dark .education-card {
+  background: rgba(30, 30, 35, 0.5);
+}
+
+.colorscheme-dark .research-interests li {
+  background: rgba(91, 127, 255, 0.1);
+}
+
+.colorscheme-dark .research-highlight {
+  background: rgba(91, 127, 255, 0.08);
+}
+
+.colorscheme-dark .interest-tag {
+  background: rgba(91, 127, 255, 0.12);
+}
+
+@media (max-width: 768px) {
+  .stats-highlight {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .stat-item {
+    width: 100%;
+    padding: 0.9rem 1.5rem;
+  }
+
+  .interest-tag {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .content h2 {
+    font-size: 1.4rem;
+  }
+
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}

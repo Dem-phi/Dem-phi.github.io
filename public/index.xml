@@ -5,59 +5,74 @@
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h2>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
- &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
- &lt;div>
- &lt;strong>Natural Humanoid Robot Locomotion with Generative Motion Prior&lt;/strong>
+&lt;div class="project-card" style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(128,128,128,0.2); transition: all 0.3s ease;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 160px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+ &lt;div style="flex: 1;">
+ &lt;strong style="font-size: 1.1rem;">Natural Humanoid Robot Locomotion with Generative Motion Prior&lt;/strong>
  &lt;br>
- Haodong Zhang*, Liang Zhang*, &lt;strong>Zhenghan Chen&lt;/strong>, Lu Chen, Yue Wang, Rong Xiong.
- &lt;br>
- &lt;a href="https://arxiv.org/pdf/2503.09015?">[paper]&lt;/a> &lt;a href="https://sites.google.com/view/humanoid-gmp">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
- &lt;br>&lt;em>IROS 2025&lt;/em>
+ &lt;span style="color: #666; font-size: 0.95rem;">Haodong Zhang*, Liang Zhang*, &lt;strong>Zhenghan Chen&lt;/strong>, Lu Chen, Yue Wang, Rong Xiong.&lt;/span>
+ &lt;div style="margin-top: 0.5rem;">
+ &lt;a href="https://arxiv.org/pdf/2503.09015?" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[paper]&lt;/a>
+ &lt;a href="https://sites.google.com/view/humanoid-gmp" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[project page]&lt;/a>
+ &lt;span style="color: #999;">[code]&lt;/span>
+ &lt;/div>
+ &lt;span class="conference-tag" style="display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 4px; font-size: 0.85rem;">IROS 2025&lt;/span>
  &lt;/div>
 &lt;/div>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
- &lt;img src="https://Dem-phi.github.io/images/paper/move.jpg" alt="Project Image" style="width: 150px; border-radius: 8px;">
- &lt;div>
- &lt;strong>A Whole-Body Motion Imitation Framework from Human Data for Full-Size Humanoid Robot&lt;/strong>
+&lt;div class="project-card" style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(128,128,128,0.2); transition: all 0.3s ease;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/move.jpg" alt="Project Image" style="width: 160px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+ &lt;div style="flex: 1;">
+ &lt;strong style="font-size: 1.1rem;">A Whole-Body Motion Imitation Framework from Human Data for Full-Size Humanoid Robot&lt;/strong>
  &lt;br>
- &lt;strong>Zhenghan Chen*&lt;/strong>, Haodong Zhang*, Dongqi Wang, Jiyu Yu, Haocheng Xu, Yue Wang, Rong Xiong.
- &lt;br>
- &lt;a href="https://arxiv.org/abs/2508.00362">[paper]&lt;/a> &lt;a href="#">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
- &lt;br>&lt;em>RCAR 2025&lt;/em>
+ &lt;span style="color: #666; font-size: 0.95rem;">&lt;strong>Zhenghan Chen*&lt;/strong>, Haodong Zhang*, Dongqi Wang, Jiyu Yu, Haocheng Xu, Yue Wang, Rong Xiong.&lt;/span>
+ &lt;div style="margin-top: 0.5rem;">
+ &lt;a href="https://arxiv.org/abs/2508.00362" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[paper]&lt;/a>
+ &lt;span style="color: #999; margin-right: 1rem;">[project page]&lt;/span>
+ &lt;span style="color: #999;">[code]&lt;/span>
+ &lt;/div>
+ &lt;span class="conference-tag" style="display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 4px; font-size: 0.85rem;">RCAR 2025&lt;/span>
  &lt;/div>
 &lt;/div>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
- &lt;img src="https://Dem-phi.github.io/images/paper/quadruped.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
- &lt;div>
- &lt;strong>Foothold-Based Planning for Legged Robot Autonomous Navigation over Uneven Terrain&lt;/strong>
+&lt;div class="project-card" style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(128,128,128,0.2); transition: all 0.3s ease;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/quadruped.gif" alt="Project Image" style="width: 160px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+ &lt;div style="flex: 1;">
+ &lt;strong style="font-size: 1.1rem;">Foothold-Based Planning for Legged Robot Autonomous Navigation over Uneven Terrain&lt;/strong>
  &lt;br>
- Jiyu Yu, Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Ci Chen, Rong Xiong, Yue Wang
- &lt;br>
- &lt;a href="https://ieeexplore.ieee.org/document/11105072">[paper]&lt;/a> &lt;a href="#">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
- &lt;br>&lt;em>TMECH 2025&lt;/em>
+ &lt;span style="color: #666; font-size: 0.95rem;">Jiyu Yu, Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Ci Chen, Rong Xiong, Yue Wang&lt;/span>
+ &lt;div style="margin-top: 0.5rem;">
+ &lt;a href="https://ieeexplore.ieee.org/document/11105072" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[paper]&lt;/a>
+ &lt;span style="color: #999; margin-right: 1rem;">[project page]&lt;/span>
+ &lt;span style="color: #999;">[code]&lt;/span>
+ &lt;/div>
+ &lt;span class="conference-tag" style="display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 4px; font-size: 0.85rem;">TMECH 2025&lt;/span>
  &lt;/div>
 &lt;/div>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
- &lt;img src="https://Dem-phi.github.io/images/paper/move.jpg" alt="Project Image" style="width: 150px; border-radius: 8px;">
- &lt;div>
- &lt;strong>A Hierarchical MPC for Locomotion Tracking Control of Humanoid Robots&lt;/strong>
+&lt;div class="project-card" style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(128,128,128,0.2); transition: all 0.3s ease;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/move.jpg" alt="Project Image" style="width: 160px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+ &lt;div style="flex: 1;">
+ &lt;strong style="font-size: 1.1rem;">A Hierarchical MPC for Locomotion Tracking Control of Humanoid Robots&lt;/strong>
  &lt;br>
- Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Jiyu Yu, Liang Zhang, Yue Wang, Haojian Lu, Shaoxing Qu, Rong Xiong.
- &lt;br>
- &lt;a href="#">[paper]&lt;/a> &lt;a href="https://doqw.github.io/hmpc-humanoid-robot/">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
- &lt;br>&lt;em>RAI 2025&lt;/em>
+ &lt;span style="color: #666; font-size: 0.95rem;">Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Jiyu Yu, Liang Zhang, Yue Wang, Haojian Lu, Shaoxing Qu, Rong Xiong.&lt;/span>
+ &lt;div style="margin-top: 0.5rem;">
+ &lt;span style="color: #999; margin-right: 1rem;">[paper]&lt;/span>
+ &lt;a href="https://doqw.github.io/hmpc-humanoid-robot/" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[project page]&lt;/a>
+ &lt;span style="color: #999;">[code]&lt;/span>
+ &lt;/div>
+ &lt;span class="conference-tag" style="display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 4px; font-size: 0.85rem;">RAI 2025&lt;/span>
  &lt;/div>
 &lt;/div>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
- &lt;img src="https://Dem-phi.github.io/images/paper/quadruped.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
- &lt;div>
- &lt;strong>A Fast Motion and Foothold Planning Framework for Legged Robots on Discrete Terrain&lt;/strong>
+&lt;div class="project-card" style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(128,128,128,0.2); transition: all 0.3s ease;">
+ &lt;img src="https://Dem-phi.github.io/images/paper/quadruped.gif" alt="Project Image" style="width: 160px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+ &lt;div style="flex: 1;">
+ &lt;strong style="font-size: 1.1rem;">A Fast Motion and Foothold Planning Framework for Legged Robots on Discrete Terrain&lt;/strong>
  &lt;br>
- Jiyu Yu, Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Ci Chen, Shuangpeng Wu, Yue Wang
- &lt;br>
- &lt;a href="https://ieeexplore.ieee.org/abstract/document/10802606">[paper]&lt;/a> &lt;a href="#">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
- &lt;br>&lt;em>IROS 2024&lt;/em>
+ &lt;span style="color: #666; font-size: 0.95rem;">Jiyu Yu, Dongqi Wang, &lt;strong>Zhenghan Chen&lt;/strong>, Ci Chen, Shuangpeng Wu, Yue Wang&lt;/span>
+ &lt;div style="margin-top: 0.5rem;">
+ &lt;a href="https://ieeexplore.ieee.org/abstract/document/10802606" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[paper]&lt;/a>
+ &lt;span style="color: #999; margin-right: 1rem;">[project page]&lt;/span>
+ &lt;span style="color: #999;">[code]&lt;/span>
+ &lt;/div>
+ &lt;span class="conference-tag" style="display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 4px; font-size: 0.85rem;">IROS 2024&lt;/span>
  &lt;/div>
 &lt;/div>
 &lt;h2 id="under-review">
@@ -67,39 +82,50 @@
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h2>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
- &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
- &lt;div>
- &lt;strong>TOP: Time Optimization Policy for Stable and Accurate Standing Manipulation with Humanoid Robots&lt;/strong>
+&lt;div class="project-card" style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(128,128,128,0.2); transition: all 0.3s ease; background: linear-gradient(135deg, rgba(102,126,234,0.05) 0%, rgba(118,75,162,0.05) 100%);">
+ &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 160px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+ &lt;div style="flex: 1;">
+ &lt;strong style="font-size: 1.1rem;">TOP: Time Optimization Policy for Stable and Accurate Standing Manipulation with Humanoid Robots&lt;/strong>
  &lt;br>
- &lt;strong>Zhenghan Chen*&lt;/strong>, Haocheng Xu*, Haodong Zhang, Liang Zhang, He Li, Dongqi Wang, Jiyu Yu, Yifei Yang, Zhongxiang Zhou, Rong Xiong.
- &lt;br>
- &lt;a href="https://arxiv.org/abs/2508.00355">[paper]&lt;/a> &lt;a href="https://dem-phi.github.io/top/">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
- &lt;br>&lt;em>Revise and Resumbit, RAL 2025&lt;/em>
+ &lt;span style="color: #666; font-size: 0.95rem;">&lt;strong>Zhenghan Chen*&lt;/strong>, Haocheng Xu*, Haodong Zhang, Liang Zhang, He Li, Dongqi Wang, Jiyu Yu, Yifei Yang, Zhongxiang Zhou, Rong Xiong.&lt;/span>
+ &lt;div style="margin-top: 0.5rem;">
+ &lt;a href="https://arxiv.org/abs/2508.00355" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[paper]&lt;/a>
+ &lt;a href="https://dem-phi.github.io/top/" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[project page]&lt;/a>
+ &lt;span style="color: #999;">[code]&lt;/span>
+ &lt;/div>
+ &lt;span class="conference-tag" style="display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border-radius: 4px; font-size: 0.85rem;">Revise and Resubmit, RAL 2025&lt;/span>
  &lt;/div>
 &lt;/div>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
- &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 150px; border-radius: 8px;">
- &lt;div>
- &lt;strong>EMP: Executable Motion Prior for Humanoid Robot Standing Upper-body Motion Imitation&lt;/strong>
+&lt;div class="project-card" style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(128,128,128,0.2); transition: all 0.3s ease; background: linear-gradient(135deg, rgba(102,126,234,0.05) 0%, rgba(118,75,162,0.05) 100%);">
+ &lt;img src="https://Dem-phi.github.io/images/paper/humanoid.gif" alt="Project Image" style="width: 160px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+ &lt;div style="flex: 1;">
+ &lt;strong style="font-size: 1.1rem;">EMP: Executable Motion Prior for Humanoid Robot Standing Upper-body Motion Imitation&lt;/strong>
  &lt;br>
- Haocheng Xu*, Haodong Zhang*, &lt;strong>Zhenghan Chen&lt;/strong>, Rong Xiong
- &lt;br>
- &lt;a href="#arxiv">[paper]&lt;/a> &lt;a href="https://emp-2025.github.io/EMP-project-page/">[project page]&lt;/a> &lt;a href="#">[code]&lt;/a>
- &lt;br>&lt;em>Under Review, RAL 2025&lt;/em>
+ &lt;span style="color: #666; font-size: 0.95rem;">Haocheng Xu*, Haodong Zhang*, &lt;strong>Zhenghan Chen&lt;/strong>, Rong Xiong&lt;/span>
+ &lt;div style="margin-top: 0.5rem;">
+ &lt;span style="color: #999; margin-right: 1rem;">[paper]&lt;/span>
+ &lt;a href="https://emp-2025.github.io/EMP-project-page/" class="project-link" style="color: #0077b6; text-decoration: none; margin-right: 1rem;">[project page]&lt;/a>
+ &lt;span style="color: #999;">[code]&lt;/span>
  &lt;/div>
-&lt;/div></description></item><item><title>About Me</title><link>https://Dem-phi.github.io/about/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://Dem-phi.github.io/about/</guid><description>&lt;div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
- &lt;img src="https://Dem-phi.github.io/images/photo_2.jpg" alt="Your Name" style="border-radius: 50%; width: 180px;">
- &lt;div>
- &lt;h2 style="margin:0;">ZHENGHAN CHEN&lt;/h2>
- &lt;p style="margin:0;">M.S. Candidate, supervised by Rong Xiong&lt;/p>
- &lt;p style="margin:0;">Zhejiang University&lt;/p>
- &lt;p style="margin:0;">Expected graduation: &lt;strong>March 2026&lt;/strong>&lt;/p>
- &lt;p>
- &lt;a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=UkQ5A_QAAAAJ" target="_blank">&lt;i class="fa-solid fa-graduation-cap">&lt;/i> Google Scholar&lt;/a>
- |
- &lt;a href="https://Dem-phi.github.io/files/陈政翰英文简历.pdf" target="_blank">&lt;i class="fa-solid fa-file-lines">&lt;/i> Download CV&lt;/a>
- &lt;/p>
+ &lt;span class="conference-tag" style="display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border-radius: 4px; font-size: 0.85rem;">Under Review, RAL 2025&lt;/span>
+ &lt;/div>
+&lt;/div></description></item><item><title>About Me</title><link>https://Dem-phi.github.io/about/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://Dem-phi.github.io/about/</guid><description>&lt;div class="profile-header" style="display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; margin-bottom: 3rem;">
+ &lt;div class="avatar-container" style="position: relative;">
+ &lt;img src="https://Dem-phi.github.io/images/photo_2.jpg" alt="Zhenghan Chen" style="border-radius: 50%; width: 200px; box-shadow: 0 10px 30px rgba(91, 127, 255, 0.2); border: 5px solid rgba(91, 127, 255, 0.12);">
+ &lt;/div>
+ &lt;div class="profile-info" style="flex: 1; min-width: 300px;">
+ &lt;h1 style="margin: 0 0 0.75rem 0; font-size: 2.25rem; color: #5b7fff; font-weight: 600;">ZHENGHAN CHEN&lt;/h1>
+ &lt;p style="margin: 0.35rem 0; color: #555; font-size: 1.15rem;">M.S. Candidate, supervised by Rong Xiong&lt;/p>
+ &lt;p style="margin: 0.35rem 0; color: #555;">Zhejiang University&lt;/p>
+ &lt;p style="margin: 0.75rem 0; color: #9b5de5; font-weight: 600;">Expected graduation: &lt;strong>March 2026&lt;/strong>&lt;/p>
+ &lt;div style="margin-top: 1.25rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+ &lt;a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=UkQ5A_QAAAAJ" target="_blank" class="cv-button">
+ &lt;i class="fa-solid fa-graduation-cap">&lt;/i> Google Scholar
+ &lt;/a>
+ &lt;a href="https://Dem-phi.github.io/files/陈政翰英文简历.pdf" target="_blank" class="cv-button">
+ &lt;i class="fa-solid fa-file-lines">&lt;/i> Download CV
+ &lt;/a>
+ &lt;/div>
  &lt;/div>
 &lt;/div>
 &lt;hr>
@@ -110,5 +136,5 @@
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h2>
-&lt;p>I have published &lt;strong>5+ papers&lt;/strong> during my M.S. in leading journals and conferences, including &lt;em>TMECH&lt;/em>, &lt;em>RA-L&lt;/em>, &lt;em>RAI&lt;/em>, &lt;em>IROS&lt;/em> and &lt;em>RCAR&lt;/em>.&lt;/p>
-&lt;p>Of these, I am the &lt;strong>first or co-first author&lt;/strong> on &lt;strong>3 papers&lt;/strong>, including &lt;strong>1 in &lt;em>RA-L&lt;/em>&lt;/strong>, &lt;strong>1 in &lt;em>RAI&lt;/em>&lt;/strong>, and &lt;strong>1 in &lt;em>RCAR&lt;/em>&lt;/strong>.&lt;/p></description></item></channel></rss>
+&lt;div class="research-highlight">
+ &lt;p style="margin: 0;">I have published &lt;strong style="color: #5b7fff; font-size: 1.25rem;">5+ papers&lt;/strong> during my M.S. in leading journals and conferences.&lt;/p></description></item></channel></rss>
